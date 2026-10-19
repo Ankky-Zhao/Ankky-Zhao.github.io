@@ -14,6 +14,9 @@ status: Live
 featured: true
 weight: 1
 links:
+- type: live
+  url: https://ankky-zhao.github.io/web-scraping-roadmap/
+  label: 网站
 - type: github
   url: https://github.com/Ankky-Zhao/web-scraping-roadmap
   label: 代码

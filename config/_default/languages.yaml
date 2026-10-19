@@ -30,9 +30,9 @@ zh:
   locale: zh-Hans
   weight: 2
   contentDir: content/zh
-  title: 赵安琪 Ankky Zhao
+  title: 赵安琪 Anqi Zhao
   params:
-    description: 赵安琪（Ankky Zhao）的个人学术主页。慕尼黑工业大学地图学与可视分析教席博士生，研究地理空间可解释人工智能与大语言模型智能体。
+    description: 赵安琪（Anqi Zhao）的个人学术主页。慕尼黑工业大学地图学与可视分析教席博士生，研究大语言模型智能体、可解释人工智能与空间机器学习。
   menus:
     main:
       - name: 首页

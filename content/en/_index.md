@@ -31,7 +31,7 @@ sections:
       title: 'Research'
       subtitle: ''
       text: |-
-        Geospatial AI models are increasingly used in planning, environmental monitoring and policy, yet their explanations usually stop at attribution scores that only modelling experts can read. My work treats explanation as a geographic communication problem. On the system side, I design LLM-based multi-agent architectures that analyse a geospatial model, ground its patterns in geographic knowledge and deliver explanations tailored to different audiences. On the scientific side, I examine whether those explanations stay faithful to what the model actually relies on, using controlled experiments in which the ground truth is known.
+        My work sits between machine learning and geographic information science. One line of research builds LLM-based multi-agent systems that combine tool use, planning and verification, and applies them to analysing and explaining spatial machine-learning models for different audiences. A second line examines the explanation methods themselves. Controlled experiments with known ground truth make it possible to measure how well feature attributions and LLM-generated explanations recover what a model relies on, and to identify when spatial structure in the data leads them astray. Earlier work extracted structured knowledge from large corpora of geospatial code by coordinating large and small language models.
     design:
       columns: '1'
 

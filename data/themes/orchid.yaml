@@ -1,0 +1,41 @@
+# Custom theme pack: muted orchid pink with lavender accents
+hugoblox:
+  meta:
+    format: "hugoblox-theme@1"
+    name: "Orchid"
+    vendor: "anqi-zhao"
+    version: "1.0.0"
+    license: "MIT"
+    description: "Muted orchid pink and lavender, readable in light and dark mode"
+
+  type: "dual"
+
+  light:
+    colors:
+      primary: "#B0508F"   # orchid
+      secondary: "#8B6FD6" # lavender
+      neutral: "#4B3F57"   # plum grey
+    surfaces:
+      background: "#FCFAFD"
+      foreground: "#2D2235"
+      header:
+        background: "#FBF5FA"
+        foreground: "#2D2235"
+      footer:
+        background: "#F6EEF6"
+        foreground: "#4B3F57"
+
+  dark:
+    colors:
+      primary: "#E59BCB"
+      secondary: "#B8A4F2"
+      neutral: "#3A2E45"
+    surfaces:
+      background: "#1B1520"
+      foreground: "#F3EAF5"
+      header:
+        background: "#241B2B"
+        foreground: "#F3EAF5"
+      footer:
+        background: "#211926"
+        foreground: "#D9C9E0"

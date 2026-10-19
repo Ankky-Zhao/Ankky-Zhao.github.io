@@ -5,12 +5,12 @@ summary: A pipeline that coordinates large and small language models to extract 
   geoprocessing modelling knowledge from crowdsourced Google Earth Engine scripts.
 tags:
 - Research
+- LLM
 - Knowledge extraction
-- LLM
 tech_stack:
-- LLM
-- Small language models
-- Google Earth Engine
+- LLM + SLM coordination
+- Chain-of-thought prompting
+- Embedding-based ontology mapping
 - Knowledge graphs
 status: Published
 featured: true
@@ -24,6 +24,11 @@ links:
 
 Thousands of Google Earth Engine scripts shared online encode practical knowledge about how geospatial analyses are built, from data selection and cloud masking to index calculation and export. This knowledge is scattered across code and hard to reuse.
 
-Geo-CLASS coordinates a large language model with smaller, cheaper models so that the large model handles the reasoning-heavy steps while the small models carry the bulk of routine extraction. The extracted steps and their dependencies are organised as structured modelling knowledge that can support retrieval and reuse.
+![From crowdsourced scripts to a geoprocessing knowledge graph](geo-class-concept.jpg)
+*Extracting themes, functions, data sources and spatial and temporal scopes from a script into a knowledge graph.*
 
-Published in the *International Journal of Geographical Information Science*, 2026.
+Geo-CLASS coordinates a large language model with small language models. Guided by a domain schema and a schema-aware, chain-of-thought prompt, the LLM recognises entities and relations in each script. The SLMs then map the free-text descriptions onto a geoscience knowledge base (GCMD, GeoNames, the GEE data catalogue and a functional dictionary) through semantic vectorisation, cosine similarity and best-match selection, so that synonymous descriptions from different scripts end up as the same standardised entity.
+
+On 237 scripts sampled from 295,943, the framework improved entity and relation recognition accuracy by up to 31.9% and 12.0% over LLM baselines including Llama-3, GPT-3.5 and GPT-4o.
+
+The overview figure at the top shows the full Geo-CLASS framework. Figures from Zhao et al. (2026), *International Journal of Geographical Information Science*, 40(3), 808–841, [doi:10.1080/13658816.2025.2577252](https://doi.org/10.1080/13658816.2025.2577252).

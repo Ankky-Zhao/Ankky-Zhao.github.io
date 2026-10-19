@@ -13,7 +13,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Anqi (Ankky) Zhao"
+    name: "Anqi Zhao"
     # Legal entity for copyright notices (defaults to name if not set)
     organization: ""
     # Schema.org type for structured data
@@ -21,9 +21,9 @@ hugoblox:
     # Short tagline displayed on your site
     tagline: ""
     # Site meta description for search engines and social sharing
-    description: "Personal academic website of Anqi (Ankky) Zhao, PhD student at the Chair of
-      Cartography and Visual Analytics, Technical University of Munich. Research on geospatial
-      explainable AI and LLM agents."
+    description: "Personal academic website of Anqi Zhao, PhD student at the Chair of
+      Cartography and Visual Analytics, Technical University of Munich. Research on LLM agents,
+      explainable AI and spatial machine learning."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
       twitter: "" # Twitter/X handle for Twitter Cards (without @)
@@ -36,11 +36,11 @@ hugoblox:
     # Mode: 'light', 'dark', or 'system' (follows OS preference)
     mode: system
     # Theme pack: name from data/themes/ or { light: "x", dark: "y" } for mix-and-match
-    pack: "default"
+    pack: "orchid"
     # Optional: Override theme pack colors
     colors:
-      primary: "#1F3A5F" # deep navy, shared with the project illustrations
-      secondary: "#2A9D8F"
+      primary: ""
+      secondary: ""
       neutral: "" # Affects gray utilities (text-gray-*, bg-gray-*)
     # Optional: Mode-specific color overrides
     colors_light: {}

@@ -2,7 +2,7 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Anqi (Ankky) Zhao
+  display: Anqi Zhao
   given: Anqi
   family: Zhao
   alternate: 赵安琪
@@ -10,16 +10,17 @@ name:
   pronouns: ''
 status:
   icon: "🗺️"
-role: PhD Student in Cartography and GeoAI
+role: PhD Student in Geospatial AI
 bio: |
-  I am a PhD student at the Chair of Cartography and Visual Analytics,
-  Technical University of Munich, supervised by Prof. Liqiu Meng.
-  My research asks how explanations of geospatial AI can become
-  understandable, checkable and useful for people outside the modelling
-  community. I build LLM-based multi-agent systems that turn model
-  attributions into explanations people can act on, and I study when such
-  explanations deserve trust. Before moving to Munich, I trained in
-  geodesy, cartography and GIS at Wuhan University.
+  I am a PhD student at the Technical University of Munich, Chair of
+  Cartography and Visual Analytics, supervised by Prof. Liqiu Meng.
+  I work where machine learning meets geographic data, with a focus on
+  LLM agents and explainable AI. I build multi-agent LLM systems that
+  analyse spatial machine-learning models and explain their behaviour,
+  and I develop evaluation methods that test whether such explanations
+  reflect what a model has actually learned. At Wuhan University I
+  worked on coordinating large and small language models to extract
+  structured knowledge from geospatial code.
 
 affiliations:
   - name: Technical University of Munich
@@ -28,20 +29,22 @@ affiliations:
 links:
   - icon: at-symbol
     url: mailto:anqi.zhao@tum.de
-    label: E-mail
+    label: Email
   - icon: brands/github
     url: https://github.com/Ankky-Zhao
+    label: GitHub
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=R5_5OiwAAAAJ&hl=en
+    label: Scholar
   # TODO: add ORCID / LinkedIn if you want them shown
   # - icon: academicons/orcid
   #   url: https://orcid.org/0000-0000-0000-0000
 
 interests:
-  - Geospatial explainable AI (GeoXAI)
   - LLM agents and multi-agent systems
-  - Faithfulness of AI explanations
-  - Geospatial knowledge extraction
+  - Explainable AI and faithfulness evaluation
+  - Spatial machine learning (GeoAI)
+  - Knowledge extraction and retrieval-augmented generation
 
 education:
   - degree: PhD in Cartography
@@ -68,18 +71,23 @@ experience:
       and contribution to seminar topic design.
 
 skills:
-  - name: Research
+  - name: AI and machine learning
     items:
-      - label: Geospatial explainable AI
-      - label: Multi-agent LLM systems
+      - label: LLM agents and multi-agent orchestration
       - label: Retrieval-augmented generation
-      - label: Knowledge graph construction
+      - label: Explainable AI (SHAP, uncertainty)
+      - label: Knowledge graphs
   - name: Engineering
     items:
       - label: Python
-      - label: PyTorch
-      - label: Hugging Face Transformers
-      - label: GIS and cartographic design
+      - label: PyTorch and Hugging Face Transformers
+      - label: XGBoost and scikit-learn
+      - label: Git and GitHub Actions
+  - name: Geospatial
+    items:
+      - label: Spatial analysis and GIS
+      - label: Google Earth Engine
+      - label: Cartographic design
 
 languages:
   - name: Chinese

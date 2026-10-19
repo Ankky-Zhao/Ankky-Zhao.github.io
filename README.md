@@ -1,6 +1,6 @@
 # Ankky-Zhao.github.io
 
-Personal academic website of Anqi (Ankky) Zhao, PhD student at the Chair of Cartography and Visual Analytics, Technical University of Munich.
+Personal academic website of Anqi Zhao, PhD student at the Chair of Cartography and Visual Analytics, Technical University of Munich.
 
 Live site: https://ankky-zhao.github.io/
 
@@ -19,7 +19,7 @@ Built with [Hugo](https://gohugo.io/) and the [HugoBlox Academic CV](https://git
 | Menu, languages | `config/_default/languages.yaml` |
 | Colours, header, footer | `config/_default/params.yaml` |
 
-To add a project, copy one of the folders under `content/en/projects/` and `content/zh/projects/`, edit the text, and replace `featured.png` (3:2 images look best on the cards). The `weight` field controls the order on the homepage, higher first.
+To add a project, copy one of the folders under `content/en/projects/` and `content/zh/projects/`, edit the text, and replace `featured.png` (3:2 images look best on the cards). Colours come from the custom theme pack `data/themes/orchid.yaml`. The `weight` field controls the order on the homepage, higher first.
 
 ## Local preview
 
@@ -36,4 +36,4 @@ In the repository go to **Settings → Pages** and set **Source** to **GitHub Ac
 
 ## Local template fixes
 
-`layouts/_partials/` overrides three template files: a fix for a build error in publication links (`functions/build_links.html`), taller image previews on project cards (`hbx/blocks/portfolio`), and no "Present" label for entries without dates (`hbx/blocks/resume-experience`, `hbx/blocks/resume-awards`). Re-check them after upgrading the template modules.
+`layouts/_partials/` overrides three template files: a fix for a build error in publication links (`functions/build_links.html`), taller image previews on project cards (`hbx/blocks/portfolio`), and no "Present" label for entries without dates (`hbx/blocks/resume-experience`, `hbx/blocks/resume-awards`), labelled contact buttons (`hbx/blocks/resume-biography-3`). Re-check them after upgrading the template modules.
