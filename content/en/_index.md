@@ -11,7 +11,7 @@ sections:
       text: ''
       button:
         text: Download CV
-        url: /uploads/cv.pdf
+        url: https://ankky-zhao.github.io/uploads/cv.pdf
       headings:
         about: 'About Me'
         education: ''
