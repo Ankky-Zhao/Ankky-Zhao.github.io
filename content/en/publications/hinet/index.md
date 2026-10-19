@@ -6,7 +6,7 @@ authors:
 - me
 - Liang J.
 - Hou S.
-date: '2024-01-01T00:00:00Z'
+date: '2024-06-01T00:00:00Z'
 publication_types:
 - article-journal
 publication:
@@ -14,6 +14,9 @@ publication:
 peer_reviewed: true
 featured: false
 summary: Acta Geodaetica et Cartographica Sinica.
+hugoblox:
+  ids:
+    doi: 10.11947/j.AGCS.2024.20240109
 ---
 
 *Acta Geodaetica et Cartographica Sinica*.

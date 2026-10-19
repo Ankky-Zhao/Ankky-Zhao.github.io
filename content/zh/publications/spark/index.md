@@ -11,7 +11,7 @@ authors:
 - Lan Q.
 - me
 - Wu H.
-date: '2025-01-01T00:00:00Z'
+date: '2025-06-01T00:00:00Z'
 publication_types:
 - article-journal
 publication:
@@ -19,6 +19,9 @@ publication:
 peer_reviewed: true
 featured: false
 summary: Big Earth Data, 9(4), 797–827.
+hugoblox:
+  ids:
+    doi: 10.1080/20964471.2025.2529639
 ---
 
 *Big Earth Data, 9(4), 797–827*.

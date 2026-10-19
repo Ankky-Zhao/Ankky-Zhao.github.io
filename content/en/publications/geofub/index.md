@@ -7,7 +7,7 @@ authors:
 - Liang J.
 - Shen Z.
 - Wu H.
-date: '2025-01-01T00:00:00Z'
+date: '2025-06-01T00:00:00Z'
 publication_types:
 - article-journal
 publication:
@@ -15,6 +15,12 @@ publication:
 peer_reviewed: true
 featured: false
 summary: Knowledge-Based Systems, 319, 113624.
+hugoblox:
+  ids:
+    doi: 10.1016/j.knosys.2025.113624
+links:
+- type: code
+  url: https://github.com/whuhsy/Geo-FuB
 ---
 
 *Knowledge-Based Systems, 319, 113624*.

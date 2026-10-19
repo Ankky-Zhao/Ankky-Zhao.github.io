@@ -9,7 +9,7 @@ authors:
 - Xiang L.
 - Li R.
 - Wu H.
-date: '2025-01-01T00:00:00Z'
+date: '2025-06-01T00:00:00Z'
 publication_types:
 - article-journal
 publication:
@@ -17,6 +17,9 @@ publication:
 peer_reviewed: true
 featured: false
 summary: Geo-spatial Information Science.
+hugoblox:
+  ids:
+    doi: 10.1080/10095020.2025.2483884
 ---
 
 *Geo-spatial Information Science*.

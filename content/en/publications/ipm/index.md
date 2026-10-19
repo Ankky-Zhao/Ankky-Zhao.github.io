@@ -6,7 +6,7 @@ authors:
 - Liu X.
 - me
 - et al.
-date: '2024-01-01T00:00:00Z'
+date: '2024-06-01T00:00:00Z'
 publication_types:
 - article-journal
 publication:
@@ -14,6 +14,9 @@ publication:
 peer_reviewed: true
 featured: false
 summary: Information Processing & Management, 61(4), 103767.
+hugoblox:
+  ids:
+    doi: 10.1016/j.ipm.2024.103767
 ---
 
 *Information Processing & Management, 61(4), 103767*.

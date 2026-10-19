@@ -9,7 +9,7 @@ authors:
 - Shen Z.
 - me
 - et al.
-date: '2025-01-01T00:00:00Z'
+date: '2025-06-01T00:00:00Z'
 publication_types:
 - article-journal
 publication:
@@ -17,6 +17,9 @@ publication:
 peer_reviewed: true
 featured: false
 summary: International Journal of Digital Earth, 18(2).
+hugoblox:
+  ids:
+    doi: 10.1080/17538947.2025.2569405
 ---
 
 *International Journal of Digital Earth, 18(2)*.

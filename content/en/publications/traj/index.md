@@ -8,7 +8,7 @@ authors:
 - Gao S.
 - me
 - et al.
-date: '2025-01-01T00:00:00Z'
+date: '2025-06-01T00:00:00Z'
 publication_types:
 - article-journal
 publication:
@@ -16,6 +16,12 @@ publication:
 peer_reviewed: true
 featured: false
 summary: The Innovation Geoscience, 3(1), 100114.
+hugoblox:
+  ids:
+    doi: 10.59717/j.xinn-geo.2024.100114
+links:
+- type: code
+  url: https://github.com/ZPGuiGroupWhu/Human-Mobility-Analysis
 ---
 
 *The Innovation Geoscience, 3(1), 100114*.

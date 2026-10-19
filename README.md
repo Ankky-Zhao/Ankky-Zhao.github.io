@@ -13,7 +13,8 @@ Built with [Hugo](https://gohugo.io/) and the [HugoBlox Academic CV](https://git
 | Name, bio, education, experience, skills, links | `data/authors/me.yaml` (English), `data/zh/authors/me.yaml` (Chinese overrides) |
 | Profile photo | `assets/media/authors/me.png` (replace with a square photo, same file name) |
 | Homepage sections (research, news, teaching, map) | `content/en/_index.md`, `content/zh/_index.md` |
-| Projects (text + cover image) | `content/<lang>/projects/<name>/index.md` and `featured.png` |
+| Research cards (one per paper, with Paper/Code buttons) | `content/<lang>/research/<name>/index.md` and `featured.png` |
+| Projects (GitHub projects, text + cover image) | `content/<lang>/projects/<name>/index.md` and `featured.png` |
 | Publications | `content/<lang>/publications/<name>/index.md` |
 | Blog posts | `content/<lang>/blog/<name>/index.md` |
 | Menu, languages | `config/_default/languages.yaml` |

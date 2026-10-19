@@ -7,7 +7,7 @@ authors:
 - me
 - Peng D.
 - Wu H.
-date: '2025-01-01T00:00:00Z'
+date: '2025-06-01T00:00:00Z'
 publication_types:
 - article-journal
 publication:
@@ -15,6 +15,9 @@ publication:
 peer_reviewed: true
 featured: false
 summary: IEEE Transactions on Multimedia, 27, 3781–3796.
+hugoblox:
+  ids:
+    doi: 10.1109/TMM.2025.3535373
 ---
 
 *IEEE Transactions on Multimedia, 27, 3781–3796*.
