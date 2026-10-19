@@ -16,7 +16,7 @@ bio: |
   Cartography and Visual Analytics, supervised by Prof. Liqiu Meng.
   I work where machine learning meets geographic data, with a focus on
   LLM agents and explainable AI. I build multi-agent LLM systems that
-  analyse spatial machine-learning models and explain their behaviour,
+  analyse GeoAI models and explain their behaviour,
   and I develop evaluation methods that test whether such explanations
   reflect what a model has actually learned. At Wuhan University I
   worked on coordinating large and small language models to extract
@@ -43,8 +43,8 @@ links:
 interests:
   - LLM agents and multi-agent systems
   - Explainable AI and faithfulness evaluation
-  - Spatial machine learning (GeoAI)
-  - Knowledge extraction and retrieval-augmented generation
+  - GeoAI
+  - Knowledge extraction
 
 education:
   - degree: PhD in Cartography

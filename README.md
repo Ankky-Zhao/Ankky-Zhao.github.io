@@ -19,7 +19,7 @@ Built with [Hugo](https://gohugo.io/) and the [HugoBlox Academic CV](https://git
 | Menu, languages | `config/_default/languages.yaml` |
 | Colours, header, footer | `config/_default/params.yaml` |
 
-To add a project, copy one of the folders under `content/en/projects/` and `content/zh/projects/`, edit the text, and replace `featured.png` (3:2 images look best on the cards). Colours come from the custom theme pack `data/themes/orchid.yaml`. The `weight` field controls the order on the homepage, higher first.
+To add a project, copy one of the folders under `content/en/projects/` and `content/zh/projects/`, edit the text, and replace `featured.png` (3:2 images look best on the cards). The `weight` field controls the order on the homepage, higher first.
 
 ## Local preview
 

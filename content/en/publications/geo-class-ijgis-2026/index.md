@@ -3,13 +3,13 @@ title: Extraction of geoprocessing modeling knowledge from crowdsourced Google E
   Engine scripts by coordinating large and small language models
 authors:
 - me
-- Zhipeng Gui
-- Jianyuan Liang
-- Yuhang Liu
-- Dehua Peng
-- Wenzhang Wei
-- Shuyang Hou
-- Huayi Wu
+- Gui Z.
+- Liang J.
+- Liu Y.
+- Peng D.
+- Wei W.
+- Hou S.
+- Wu H.
 date: '2026-01-01T00:00:00Z'
 publication_types:
 - article-journal

@@ -31,7 +31,7 @@ sections:
       title: '研究方向'
       subtitle: ''
       text: |-
-        我的研究位于机器学习与地理信息科学之间。一条主线是构建结合工具调用、任务规划与结果核验的多智能体大语言模型系统，用于分析空间机器学习模型，并面向不同受众解释其行为。另一条主线关注解释方法本身，借助真值已知的受控实验，度量特征归因与大语言模型生成的解释在多大程度上还原了模型真正依赖的因素，并识别数据中的空间结构在哪些情况下会使解释产生偏差。此前的工作则通过协同大小语言模型，从大规模地学代码中抽取结构化知识。
+        我的研究位于机器学习与地理信息科学之间。一条主线是构建结合工具调用、任务规划与结果核验的多智能体大语言模型系统，用于分析 GeoAI 模型，并面向不同受众解释其行为。另一条主线关注解释方法本身，借助真值已知的受控实验，度量特征归因与大语言模型生成的解释在多大程度上还原了模型真正依赖的因素，并识别数据中的空间结构在哪些情况下会使解释产生偏差。此前的工作则通过协同大小语言模型，从大规模地学代码中抽取结构化知识。
     design:
       columns: '1'
 
@@ -60,7 +60,8 @@ sections:
     id: papers
     content:
       title: '论文'
-      text: '完整列表见 [Google Scholar](https://scholar.google.com/citations?user=R5_5OiwAAAAJ&hl=en)。'
+      text: |-
+        <a href="https://scholar.google.com/citations?user=R5_5OiwAAAAJ&hl=en" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-4 h-10 rounded-full bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-200 shadow-sm hover:shadow-md hover:-translate-y-0.5 hover:text-primary-600 dark:hover:text-primary-300 transition-all duration-300 border border-gray-200 dark:border-gray-700 text-sm font-medium"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z"/></svg><span>Google Scholar 主页</span></a>
       filters:
         folders:
           - publications

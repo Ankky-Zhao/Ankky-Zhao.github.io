@@ -23,7 +23,7 @@ hugoblox:
     # Site meta description for search engines and social sharing
     description: "Personal academic website of Anqi Zhao, PhD student at the Chair of
       Cartography and Visual Analytics, Technical University of Munich. Research on LLM agents,
-      explainable AI and spatial machine learning."
+      explainable AI and GeoAI."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
       twitter: "" # Twitter/X handle for Twitter Cards (without @)
@@ -36,11 +36,11 @@ hugoblox:
     # Mode: 'light', 'dark', or 'system' (follows OS preference)
     mode: system
     # Theme pack: name from data/themes/ or { light: "x", dark: "y" } for mix-and-match
-    pack: "orchid"
+    pack: "default"
     # Optional: Override theme pack colors
     colors:
-      primary: ""
-      secondary: ""
+      primary: "#1F3A5F" # deep navy
+      secondary: "#2A9D8F" # teal
       neutral: "" # Affects gray utilities (text-gray-*, bg-gray-*)
     # Optional: Mode-specific color overrides
     colors_light: {}

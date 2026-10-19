@@ -31,7 +31,7 @@ sections:
       title: 'Research'
       subtitle: ''
       text: |-
-        My work sits between machine learning and geographic information science. One line of research builds LLM-based multi-agent systems that combine tool use, planning and verification, and applies them to analysing and explaining spatial machine-learning models for different audiences. A second line examines the explanation methods themselves. Controlled experiments with known ground truth make it possible to measure how well feature attributions and LLM-generated explanations recover what a model relies on, and to identify when spatial structure in the data leads them astray. Earlier work extracted structured knowledge from large corpora of geospatial code by coordinating large and small language models.
+        My work sits between machine learning and geographic information science. One line of research builds LLM-based multi-agent systems that combine tool use, planning and verification, and applies them to analysing and explaining GeoAI models for different audiences. A second line examines the explanation methods themselves. Controlled experiments with known ground truth make it possible to measure how well feature attributions and LLM-generated explanations recover what a model relies on, and to identify when spatial structure in the data leads them astray. Earlier work extracted structured knowledge from large corpora of geospatial code by coordinating large and small language models.
     design:
       columns: '1'
 
@@ -60,7 +60,8 @@ sections:
     id: papers
     content:
       title: 'Publications'
-      text: 'A complete list is available on [Google Scholar](https://scholar.google.com/citations?user=R5_5OiwAAAAJ&hl=en).'
+      text: |-
+        <a href="https://scholar.google.com/citations?user=R5_5OiwAAAAJ&hl=en" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-4 h-10 rounded-full bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-200 shadow-sm hover:shadow-md hover:-translate-y-0.5 hover:text-primary-600 dark:hover:text-primary-300 transition-all duration-300 border border-gray-200 dark:border-gray-700 text-sm font-medium"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z"/></svg><span>Google Scholar profile</span></a>
       filters:
         folders:
           - publications
