@@ -206,6 +206,8 @@
                   {{ $parsed := try (time $start) }}
                   {{ if not $parsed.Err }}
                     {{ $parsed.Value | time.Format $date_format }} –
+                  {{ else if strings.Contains (printf "%v" $start) "–" }}
+                    {{ $start }}
                   {{ else }}
                     {{ $start }} –
                   {{ end }}
@@ -217,7 +219,7 @@
                   {{ else }}
                     {{ $end }}
                   {{ end }}
-                {{ else if $start }}{{/* local: no dates means show nothing, not Present */}}
+                {{ else if and $start (not (strings.Contains (printf "%v" $start) "–")) }}{{/* local: no dates or a full range means no "Present" */}}
                   <span class="text-primary-600 dark:text-primary-400 font-medium">{{ i18n "present" | default "Present" }}</span>
                 {{end}}
               </time>
@@ -340,6 +342,8 @@
                   {{ $parsed := try (time $start) }}
                   {{ if not $parsed.Err }}
                     {{ $parsed.Value | time.Format $date_format }} –
+                  {{ else if strings.Contains (printf "%v" $start) "–" }}
+                    {{ $start }}
                   {{ else }}
                     {{ $start }} –
                   {{ end }}
@@ -351,7 +355,7 @@
                   {{ else }}
                     {{ $end }}
                   {{ end }}
-                {{ else if $start }}{{/* local: no dates means show nothing, not Present */}}
+                {{ else if and $start (not (strings.Contains (printf "%v" $start) "–")) }}{{/* local: no dates or a full range means no "Present" */}}
                   <span class="text-primary-600 dark:text-primary-400 font-medium">{{ i18n "present" | default "Present" }}</span>
                 {{end}}
               </time>

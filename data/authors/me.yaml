@@ -5,7 +5,7 @@ name:
   display: Anqi (Ankky) Zhao
   given: Anqi
   family: Zhao
-  alternate: ''  # TODO: your name in Chinese characters
+  alternate: 赵安琪
   pronunciation: ''
   pronouns: ''
 status:
@@ -17,7 +17,7 @@ bio: |
   My research asks how explanations of geospatial AI can become
   understandable, checkable and useful for people outside the modelling
   community. I build LLM-based multi-agent systems that turn model
-  attributions into interpreted explanations, and I study when such
+  attributions into explanations people can act on, and I study when such
   explanations deserve trust. Before moving to Munich, I trained in
   geodesy, cartography and GIS at Wuhan University.
 
@@ -26,10 +26,9 @@ affiliations:
     url: https://www.asg.ed.tum.de/lfk/
 
 links:
-  # TODO: add a public e-mail address, e.g. your TUM address
-  # - icon: at-symbol
-  #   url: mailto:your.name@tum.de
-  #   label: E-mail Me
+  - icon: at-symbol
+    url: mailto:anqi.zhao@tum.de
+    label: E-mail
   - icon: brands/github
     url: https://github.com/Ankky-Zhao
   - icon: academicons/google-scholar
@@ -52,11 +51,12 @@ education:
       Doctoral project on an agent-based architecture for automated,
       interactive and inclusive explanation of geospatial AI.
       Supervisor Prof. Liqiu Meng, mentor Prof. Yu Feng.
-  # TODO: add start/end dates for the two Wuhan University degrees
   - degree: M.Sc. in Cartography and GIS
     institution: Wuhan University
+    start: '2022–2025'
   - degree: B.Eng. in Geodesy and Geomatics Engineering
     institution: Wuhan University
+    start: '2018–2022'
     summary: Graduated in the top 5% of the cohort by GPA.
 
 experience:
@@ -66,11 +66,6 @@ experience:
     summary: |
       Research on GeoXAI and LLM agents. Supervision of Master's theses
       and contribution to seminar topic design.
-  # TODO: add dates, or remove this entry if the collaboration should not be public
-  - role: Industry Collaboration
-    org: Huawei
-    summary: |
-      Contributed to an agentic system for geoscience modelling.
 
 skills:
   - name: Research
@@ -92,15 +87,32 @@ languages:
     label: Native
   - name: English
     level: 4
-    label: Professional working proficiency
+    label: Fluent (IELTS 7.0)
+  - name: Japanese
+    level: 3
+    label: JLPT N3
   - name: German
     level: 1
     label: Learning (A1)
 
 awards:
-  - title: Chinese Invention Patent
-    awarder: Knowledge-graph-based intent recognition
-    icon: hero/light-bulb
-  - title: Top 5% GPA
+  - title: Outstanding Postgraduate of LIESMARS
     awarder: Wuhan University
+    date: '2024'
+    icon: hero/trophy
+  - title: Two granted Chinese invention patents
+    awarder: Knowledge-graph-based map retrieval
+    date: '2023–2024'
+    icon: hero/light-bulb
+  - title: Outstanding Graduate
+    awarder: Wuhan University
+    date: '2022'
     icon: hero/academic-cap
+  - title: First Prize
+    awarder: National Surveying Science and Technology Thesis Competition for College Students
+    date: '2021'
+    icon: hero/trophy
+  - title: National Inspirational Scholarship
+    awarder: Wuhan University
+    date: '2019–2021'
+    icon: hero/star

@@ -9,10 +9,9 @@ sections:
     content:
       username: me
       text: ''
-      # TODO: 将简历放到 static/uploads/cv.pdf 后取消下面三行的注释
-      # button:
-      #   text: 下载简历
-      #   url: uploads/cv.pdf
+      button:
+        text: 下载简历
+        url: uploads/cv.pdf
       headings:
         about: '个人简介'
         education: '教育背景'
@@ -77,7 +76,7 @@ sections:
 
         **2026 年 9 月** · 发布 [LLM 智能体学习地图](https://github.com/Ankky-Zhao/llm-agent-roadmap)，涵盖分阶段学习资源与关键论文时间线。
 
-        **2026 年** · 关于大小语言模型协同抽取地学建模知识的一作论文发表于 *IJGIS*。
+        **2025 年 11 月** · 关于大小语言模型协同抽取地学建模知识的一作论文发表于 *IJGIS*。
 
         **2025 年 9 月** · 加入慕尼黑工业大学地图学与可视分析教席攻读博士学位。
     design:
@@ -90,7 +89,7 @@ sections:
       text: |-
         **指导学生** · 指导地理空间 AI 解释评测方向的硕士论文。
 
-        **教学** · 参与慕尼黑工业大学研讨课 *Mapping for a Sustainable World* 的选题设计。
+        **教学** · 参与慕尼黑工业大学研讨课 *Mapping for a Sustainable World* 的选题设计。曾担任剑桥大学人工智能暑期学校（2021）、武汉大学国际地理信息暑期学校（2022）以及武汉大学《数据结构与程序设计》C++ 课程（2024–2025）助教。
 
         **审稿** · *Transactions in GIS*、*Geo-spatial Information Science*。
     design:

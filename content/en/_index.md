@@ -9,10 +9,9 @@ sections:
     content:
       username: me
       text: ''
-      # TODO: put your CV at static/uploads/cv.pdf, then uncomment the button
-      # button:
-      #   text: Download CV
-      #   url: uploads/cv.pdf
+      button:
+        text: Download CV
+        url: uploads/cv.pdf
       headings:
         about: 'About Me'
         education: ''
@@ -77,7 +76,7 @@ sections:
 
         **Sep 2026** · Released the [LLM Agent Roadmap](https://github.com/Ankky-Zhao/llm-agent-roadmap), an open learning map of LLM agents with curated resources and a key-papers timeline.
 
-        **2026** · First-author paper on coordinating large and small language models for geoprocessing knowledge extraction published in *IJGIS*.
+        **Nov 2025** · First-author paper on coordinating large and small language models for geoprocessing knowledge extraction published in *IJGIS*.
 
         **Sep 2025** · Started my PhD at the Chair of Cartography and Visual Analytics, TUM.
     design:
@@ -90,7 +89,7 @@ sections:
       text: |-
         **Supervision** · Master's theses on benchmarking and evaluating explanations of geospatial AI.
 
-        **Teaching** · Topic design for the seminar *Mapping for a Sustainable World*, TUM.
+        **Teaching** · Topic design for the seminar *Mapping for a Sustainable World*, TUM. Earlier teaching assistant for the Artificial Intelligence Summer School at the University of Cambridge (2021), the International Geoinformatics Summer School (2022) and *Data Structure and Programming* in C++ (2024–2025) at Wuhan University.
 
         **Reviewing** · *Transactions in GIS*, *Geo-spatial Information Science*.
     design:

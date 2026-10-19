@@ -1,6 +1,6 @@
 ---
 title: Geo-CLASS：从 Earth Engine 脚本中抽取建模知识
-date: '2026-03-01'
+date: '2025-11-03'
 summary: 协同大语言模型与小语言模型，从众包的 Google Earth Engine 脚本中抽取可复用的地学处理建模知识。
 tags:
 - Research

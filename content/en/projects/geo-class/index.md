@@ -1,6 +1,6 @@
 ---
 title: 'Geo-CLASS: Knowledge from Earth Engine Scripts'
-date: '2026-03-01'
+date: '2025-11-03'
 summary: A pipeline that coordinates large and small language models to extract reusable
   geoprocessing modelling knowledge from crowdsourced Google Earth Engine scripts.
 tags:

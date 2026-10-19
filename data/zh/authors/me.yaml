@@ -1,11 +1,10 @@
 # 中文版本覆盖英文 data/authors/me.yaml 中的同名字段
 name:
-  # TODO: 填入中文姓名，例如 display: 赵某某（Ankky Zhao）
-  display: Anqi (Ankky) Zhao
-  alternate: ''
+  display: 赵安琪
+  alternate: Anqi (Ankky) Zhao
 role: 地图学与 GeoAI 方向博士生
 bio: >-
-  慕尼黑工业大学地图学与可视分析教席博士生，导师为孟立秋教授。研究关注如何让地理空间人工智能的解释被模型领域之外的人读懂、核验并用于决策。目前构建基于大语言模型的多智能体系统，将模型归因结果转化为经过解读的解释，并探讨这类解释在何种条件下值得信任。本科与硕士阶段在武汉大学学习大地测量、地图学与地理信息系统。
+  慕尼黑工业大学地图学与可视分析教席博士生，导师为孟立秋教授。研究关注如何让地理空间人工智能的解释被模型领域之外的人读懂、核验并用于决策。目前构建基于大语言模型的多智能体系统，将模型归因结果转化为可供决策参考的解释，并探讨这类解释在何种条件下值得信任。本科与硕士阶段在武汉大学学习大地测量、地图学与地理信息系统。
 
 affiliations:
   - name: 慕尼黑工业大学
@@ -25,8 +24,10 @@ education:
       博士课题为面向地理空间人工智能的自动化、交互式、包容性解释的智能体架构。导师孟立秋教授，副导师 Yu Feng 教授。
   - degree: 地图学与地理信息系统 硕士
     institution: 武汉大学
+    start: '2022–2025'
   - degree: 测绘工程 学士
     institution: 武汉大学
+    start: '2018–2022'
     summary: 以专业前 5% 的绩点毕业。
 
 experience:
@@ -35,10 +36,6 @@ experience:
     start: 2025-09-01
     summary: >-
       从事 GeoXAI 与大语言模型智能体研究，指导硕士论文并参与研讨课选题设计。
-  - role: 产业合作
-    org: 华为
-    summary: >-
-      参与面向地学建模的智能体系统研发。
 
 skills:
   - name: 研究方向
@@ -60,15 +57,32 @@ languages:
     label: 母语
   - name: 英语
     level: 4
-    label: 学术工作语言
+    label: 流利（雅思 7.0）
+  - name: 日语
+    level: 3
+    label: JLPT N3
   - name: 德语
     level: 1
     label: 学习中（A1）
 
 awards:
-  - title: 中国发明专利
-    awarder: 基于知识图谱的意图识别
-    icon: hero/light-bulb
-  - title: 绩点专业前 5%
+  - title: 测绘遥感信息工程国家重点实验室优秀研究生
     awarder: 武汉大学
+    date: '2024'
+    icon: hero/trophy
+  - title: 两项已授权中国发明专利
+    awarder: 基于知识图谱的地图检索
+    date: '2023–2024'
+    icon: hero/light-bulb
+  - title: 优秀毕业生
+    awarder: 武汉大学
+    date: '2022'
     icon: hero/academic-cap
+  - title: 一等奖
+    awarder: 全国大学生测绘科技论文竞赛
+    date: '2021'
+    icon: hero/trophy
+  - title: 国家励志奖学金
+    awarder: 武汉大学
+    date: '2019–2021'
+    icon: hero/star
