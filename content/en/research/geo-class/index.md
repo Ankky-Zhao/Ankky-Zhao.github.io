@@ -4,22 +4,27 @@ date: '2025-11-03'
 summary: A pipeline that coordinates large and small language models to extract reusable
   geoprocessing modelling knowledge from crowdsourced Google Earth Engine scripts.
 tags:
-- Research
+- First author
 - LLM
-- Knowledge extraction
+- Knowledge graphs
 tech_stack:
 - LLM + SLM coordination
 - Chain-of-thought prompting
 - Embedding-based ontology mapping
 - Knowledge graphs
-status: Published
+status: IJGIS 2026
 featured: true
 weight: 3
 links:
-- type: custom
+- type: doi
   url: https://doi.org/10.1080/13658816.2025.2577252
-  icon: document-text
   label: Paper
+  icon: document-text
+- type: code
+  url: https://github.com/Ankky-Zhao/Geo-CLASS
+  label: Code
+  icon: brands/github
+byline: '**Zhao A.**, Gui Z., Liang J., Liu Y., Peng D., Wei W., Hou S., Wu H.'
 ---
 
 Thousands of Google Earth Engine scripts shared online encode practical knowledge about how geospatial analyses are built, from data selection and cloud masking to index calculation and export. This knowledge is scattered across code and hard to reuse.

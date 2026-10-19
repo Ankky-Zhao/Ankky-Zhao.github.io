@@ -3,7 +3,6 @@ title: 爬虫学习路线
 date: '2026-10-19'
 summary: 一份中英双语教程，从第一个 HTTP 请求讲到完整的爬虫项目，同时覆盖手写代码与 AI 辅助编程。
 tags:
-- Open source
 - Learning
 tech_stack:
 - Python

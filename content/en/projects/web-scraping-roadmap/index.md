@@ -4,7 +4,6 @@ date: '2026-10-19'
 summary: A bilingual tutorial that goes from the first HTTP request to a complete
   scraping project, with both hand-written and AI-assisted code.
 tags:
-- Open source
 - Learning
 tech_stack:
 - Python

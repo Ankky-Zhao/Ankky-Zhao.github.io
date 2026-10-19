@@ -3,22 +3,27 @@ title: Geo-CLASS：从 Earth Engine 脚本中抽取建模知识
 date: '2025-11-03'
 summary: 协同大语言模型与小语言模型，从众包的 Google Earth Engine 脚本中抽取可复用的地学处理建模知识。
 tags:
-- Research
+- First author
 - LLM
-- Knowledge extraction
+- Knowledge graphs
 tech_stack:
 - LLM + SLM coordination
 - Chain-of-thought prompting
 - Embedding-based ontology mapping
 - Knowledge graphs
-status: 已发表
+status: IJGIS 2026
 featured: true
 weight: 3
 links:
-- type: custom
+- type: doi
   url: https://doi.org/10.1080/13658816.2025.2577252
-  icon: document-text
   label: 论文
+  icon: document-text
+- type: code
+  url: https://github.com/Ankky-Zhao/Geo-CLASS
+  label: 代码
+  icon: brands/github
+byline: '**Zhao A.**, Gui Z., Liang J., Liu Y., Peng D., Wei W., Hou S., Wu H.'
 ---
 
 网络上共享的大量 Google Earth Engine 脚本包含了地理空间分析的实践知识，涵盖数据选择、云掩膜、指数计算到结果导出等环节。这些知识分散在代码中，难以复用。

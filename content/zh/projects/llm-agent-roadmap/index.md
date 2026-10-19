@@ -3,7 +3,6 @@ title: LLM 智能体学习地图
 date: '2026-09-15'
 summary: 一份中英双语的学习地图，从初识 LLM 智能体一路延伸到前沿研究与动手做项目。
 tags:
-- Open source
 - LLM agents
 - Learning
 tech_stack:

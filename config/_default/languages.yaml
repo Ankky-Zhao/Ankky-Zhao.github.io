@@ -10,10 +10,13 @@ en:
         url: /
         weight: 10
       - name: Research
-        url: /#projects
+        url: /#research
         weight: 20
+      - name: Projects
+        url: /#projects
+        weight: 25
       - name: Publications
-        url: /#papers
+        url: publications/
         weight: 30
       - name: News
         url: /#news
@@ -39,10 +42,13 @@ zh:
         url: /
         weight: 10
       - name: 研究
-        url: /#projects
+        url: /#research
         weight: 20
+      - name: 项目
+        url: /#projects
+        weight: 25
       - name: 论文
-        url: /#papers
+        url: publications/
         weight: 30
       - name: 动态
         url: /#news

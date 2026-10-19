@@ -24,8 +24,7 @@ featured: true
 hugoblox:
   ids:
     doi: 10.1080/13658816.2025.2577252
-projects:
-- geo-class
+projects: []
 summary: 协同大小语言模型，从众包 Earth Engine 脚本中抽取可复用的地学处理建模知识。
 tags:
 - Geoprocessing
@@ -52,6 +51,9 @@ abstract: The widespread use of online geoinformation platforms, such as Google 
   and the robustness of the framework. Geo-CLASS has the potential to enable the construction
   of geoprocessing modeling knowledge graphs, facilitate domain-specific reasoning
   and advance script generation via Retrieval-Augmented Generation (RAG).
+links:
+- type: code
+  url: https://github.com/Ankky-Zhao/Geo-CLASS
 ---
 
 *International Journal of Geographical Information Science*，40(3)，808–841。2025 年 11 月 3 日在线发表。

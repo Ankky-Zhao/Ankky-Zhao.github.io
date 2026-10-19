@@ -4,7 +4,6 @@ date: '2026-09-15'
 summary: A bilingual learning map that takes readers from first contact with LLM agents
   to research topics and their own projects.
 tags:
-- Open source
 - LLM agents
 - Learning
 tech_stack:
