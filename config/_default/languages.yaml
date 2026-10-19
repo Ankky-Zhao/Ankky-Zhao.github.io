@@ -1,0 +1,55 @@
+# Languages: English (default) and Simplified Chinese, switchable from the header.
+en:
+  label: English
+  locale: en-us
+  weight: 1
+  contentDir: content/en
+  menus:
+    main:
+      - name: Home
+        url: /
+        weight: 10
+      - name: Research
+        url: /#projects
+        weight: 20
+      - name: Publications
+        url: /#papers
+        weight: 30
+      - name: News
+        url: /#news
+        weight: 40
+      - name: Experience
+        url: experience/
+        weight: 50
+      - name: Blog
+        url: blog/
+        weight: 60
+
+zh:
+  label: 中文
+  locale: zh-Hans
+  weight: 2
+  contentDir: content/zh
+  title: Ankky Zhao
+  params:
+    description: Anqi (Ankky) Zhao 的个人学术主页。慕尼黑工业大学地图学与可视分析教席博士生，研究地理空间可解释人工智能与大语言模型智能体。
+  menus:
+    main:
+      - name: 首页
+        url: /
+        weight: 10
+      - name: 研究
+        url: /#projects
+        weight: 20
+      - name: 论文
+        url: /#papers
+        weight: 30
+      - name: 动态
+        url: /#news
+        weight: 40
+      - name: 经历
+        url: experience/
+        weight: 50
+      - name: 博客
+        url: blog/
+        weight: 60

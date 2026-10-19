@@ -1,0 +1,106 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Anqi (Ankky) Zhao
+  given: Anqi
+  family: Zhao
+  alternate: ''  # TODO: your name in Chinese characters
+  pronunciation: ''
+  pronouns: ''
+status:
+  icon: "🗺️"
+role: PhD Student in Cartography and GeoAI
+bio: |
+  I am a PhD student at the Chair of Cartography and Visual Analytics,
+  Technical University of Munich, supervised by Prof. Liqiu Meng.
+  My research asks how explanations of geospatial AI can become
+  understandable, checkable and useful for people outside the modelling
+  community. I build LLM-based multi-agent systems that turn model
+  attributions into interpreted explanations, and I study when such
+  explanations deserve trust. Before moving to Munich, I trained in
+  geodesy, cartography and GIS at Wuhan University.
+
+affiliations:
+  - name: Technical University of Munich
+    url: https://www.asg.ed.tum.de/lfk/
+
+links:
+  # TODO: add a public e-mail address, e.g. your TUM address
+  # - icon: at-symbol
+  #   url: mailto:your.name@tum.de
+  #   label: E-mail Me
+  - icon: brands/github
+    url: https://github.com/Ankky-Zhao
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=R5_5OiwAAAAJ&hl=en
+  # TODO: add ORCID / LinkedIn if you want them shown
+  # - icon: academicons/orcid
+  #   url: https://orcid.org/0000-0000-0000-0000
+
+interests:
+  - Geospatial explainable AI (GeoXAI)
+  - LLM agents and multi-agent systems
+  - Faithfulness of AI explanations
+  - Geospatial knowledge extraction
+
+education:
+  - degree: PhD in Cartography
+    institution: Technical University of Munich
+    start: '2025'
+    summary: |
+      Doctoral project on an agent-based architecture for automated,
+      interactive and inclusive explanation of geospatial AI.
+      Supervisor Prof. Liqiu Meng, mentor Prof. Yu Feng.
+  # TODO: add start/end dates for the two Wuhan University degrees
+  - degree: M.Sc. in Cartography and GIS
+    institution: Wuhan University
+  - degree: B.Eng. in Geodesy and Geomatics Engineering
+    institution: Wuhan University
+    summary: Graduated in the top 5% of the cohort by GPA.
+
+experience:
+  - role: Doctoral Researcher
+    org: Chair of Cartography and Visual Analytics, TUM
+    start: 2025-09-01
+    summary: |
+      Research on GeoXAI and LLM agents. Supervision of Master's theses
+      and contribution to seminar topic design.
+  # TODO: add dates, or remove this entry if the collaboration should not be public
+  - role: Industry Collaboration
+    org: Huawei
+    summary: |
+      Contributed to an agentic system for geoscience modelling.
+
+skills:
+  - name: Research
+    items:
+      - label: Geospatial explainable AI
+      - label: Multi-agent LLM systems
+      - label: Retrieval-augmented generation
+      - label: Knowledge graph construction
+  - name: Engineering
+    items:
+      - label: Python
+      - label: PyTorch
+      - label: Hugging Face Transformers
+      - label: GIS and cartographic design
+
+languages:
+  - name: Chinese
+    level: 5
+    label: Native
+  - name: English
+    level: 4
+    label: Professional working proficiency
+  - name: German
+    level: 1
+    label: Learning (A1)
+
+awards:
+  - title: Chinese Invention Patent
+    awarder: Knowledge-graph-based intent recognition
+    icon: hero/light-bulb
+  - title: Top 5% GPA
+    awarder: Wuhan University
+    icon: hero/academic-cap
