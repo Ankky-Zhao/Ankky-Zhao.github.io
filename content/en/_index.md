@@ -27,8 +27,9 @@ sections:
         shape: circle
 
   - block: markdown
+    id: research
     content:
-      title: 'Research Overview'
+      title: 'Research'
       subtitle: ''
       text: |-
         My work sits between machine learning and geographic information science. One line of research builds LLM-based multi-agent systems that combine tool use, planning and verification, and applies them to analysing and explaining GeoAI models for different audiences. A second line examines the explanation methods themselves. Controlled experiments with known ground truth make it possible to measure how well feature attributions and LLM-generated explanations recover what a model relies on, and to identify when spatial structure in the data leads them astray. Earlier work extracted structured knowledge from large corpora of geospatial code by coordinating large and small language models.
@@ -36,10 +37,10 @@ sections:
       columns: '1'
 
   - block: portfolio
-    id: research
+    id: publications
     content:
-      title: 'Research'
-      subtitle: 'Published papers, with figures and code where available<br><span style="display:inline-flex;gap:.6rem;margin-top:1rem;flex-wrap:wrap;justify-content:center"><a href="https://scholar.google.com/citations?user=R5_5OiwAAAAJ&hl=en" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-4 h-10 rounded-full bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-200 shadow-sm hover:shadow-md hover:-translate-y-0.5 hover:text-primary-600 dark:hover:text-primary-300 transition-all duration-300 border border-gray-200 dark:border-gray-700 text-sm font-medium"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z"/></svg><span>Google Scholar profile</span></a><a href="/publications/" class="inline-flex items-center gap-2 px-4 h-10 rounded-full bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-200 shadow-sm hover:shadow-md hover:-translate-y-0.5 hover:text-primary-600 dark:hover:text-primary-300 transition-all duration-300 border border-gray-200 dark:border-gray-700 text-sm font-medium"><span>Full publication list</span></a></span>'
+      title: 'Publications'
+      subtitle: 'Peer-reviewed papers, with figures and code where available<br><span style="display:inline-flex;gap:.6rem;margin-top:1rem;flex-wrap:wrap;justify-content:center"><a href="https://scholar.google.com/citations?user=R5_5OiwAAAAJ&hl=en" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-4 h-10 rounded-full bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-200 shadow-sm hover:shadow-md hover:-translate-y-0.5 hover:text-primary-600 dark:hover:text-primary-300 transition-all duration-300 border border-gray-200 dark:border-gray-700 text-sm font-medium"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z"/></svg><span>Google Scholar profile</span></a></span>'
       filters:
         folders:
           - research
@@ -82,7 +83,7 @@ sections:
     content:
       title: 'Open to Collaboration'
       text: |-
-        I am looking for collaborators who share an interest in **LLM agents for geospatial analysis**, **evaluating and explaining GeoAI models**, or **knowledge extraction from geospatial code and text**. PhD students, postdocs and industry researchers are all welcome, whether for a joint paper, a dataset or benchmark, or an open-source tool. If any of this overlaps with your work, a short email with a line about what you are working on is the best way to start.
+        I am looking for collaborators who share an interest in **LLM and multimodal agents for geospatial analysis**, **evaluating and explaining GeoAI models**, **location privacy in the age of AI**, or **knowledge extraction from geospatial code and text**. PhD students, postdocs and industry researchers are all welcome, whether for a joint paper, a dataset or benchmark, or an open-source tool. If any of this overlaps with your work, a short email with a line about what you are working on is the best way to start.
       button:
         text: 'Get in touch'
         url: 'mailto:anqi.zhao@tum.de?subject=Collaboration'
@@ -110,35 +111,13 @@ sections:
   - block: markdown
     id: teaching
     content:
-      title: 'Teaching & Service'
+      title: 'Teaching'
       text: |-
         **Supervision** · Master's theses on benchmarking and evaluating explanations of geospatial AI.
 
         **Teaching** · Topic design for the seminar *Mapping for a Sustainable World*, TUM. Earlier teaching assistant for the Artificial Intelligence Summer School at the University of Cambridge (2021), the International Geoinformatics Summer School (2022) and *Data Structure and Programming* in C++ (2024–2025) at Wuhan University.
-
-        **Reviewing** · *Transactions in GIS*, *Geo-spatial Information Science*.
     design:
       columns: '1'
-
-  - block: map
-    id: map
-    content:
-      title: 'From Wuhan to Munich'
-      subtitle: 'Places that shaped my path in geography'
-      markers:
-        - lat: 30.5360
-          lng: 114.3600
-          title: Wuhan University
-          description: B.Eng. and M.Sc. in geodesy, cartography and GIS
-        - lat: 48.1497
-          lng: 11.5679
-          title: Technical University of Munich
-          description: PhD at the Chair of Cartography and Visual Analytics
-    design:
-      layout: map-only
-      style: light
-      height: sm
-      cooperative_gestures: true
 
   - block: collection
     id: blog

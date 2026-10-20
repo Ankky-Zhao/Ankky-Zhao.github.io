@@ -10,19 +10,19 @@ name:
   pronouns: ''
 role: PhD Student in Geospatial AI
 bio: |
-  I am a PhD student at the Technical University of Munich, Chair of
-  Cartography and Visual Analytics, supervised by Prof. Liqiu Meng.
+  I am a PhD student at the [Chair of Cartography and Visual Analytics](https://www.asg.ed.tum.de/lfk/home/),
+  Technical University of Munich, supervised by Prof. Liqiu Meng.
   I work where machine learning meets geographic data, with a focus on
   LLM agents and explainable AI. I build multi-agent LLM systems that
-  analyse GeoAI models and explain their behaviour,
-  and I develop evaluation methods that test whether such explanations
-  reflect what a model has actually learned. At Wuhan University I
-  worked on coordinating large and small language models to extract
-  structured knowledge from geospatial code.
+  analyse GeoAI models and explain their behaviour, and I develop
+  evaluation methods that test whether such explanations reflect what a
+  model has actually learned. At Wuhan University I worked on
+  coordinating large and small language models to extract structured
+  knowledge from geospatial code.
 
 affiliations:
-  - name: Technical University of Munich
-    url: https://www.asg.ed.tum.de/lfk/
+  - name: Chair of Cartography and Visual Analytics, TUM
+    url: https://www.asg.ed.tum.de/lfk/home/
 
 links:
   - icon: at-symbol
@@ -40,33 +40,25 @@ links:
 
 interests:
   - LLM agents and multi-agent systems
+  - Multimodal agents
   - Trustworthy and explainable AI
+  - Location privacy
   - GeoAI
   - Knowledge extraction and knowledge graphs
 
 education:
   - degree: PhD in Cartography
     institution: Technical University of Munich
-    start: '2025'
-    summary: |
-      Doctoral project on an agent-based architecture for automated,
-      interactive and inclusive explanation of geospatial AI.
-      Supervisor Prof. Liqiu Meng, mentor Prof. Yu Feng.
+    start: '2025–present'
+    note: 'Supervisor [Prof. Liqiu Meng](https://www.asg.ed.tum.de/lfk/home/) · Mentor Prof. Yu Feng'
   - degree: M.Sc. in Cartography and GIS
     institution: Wuhan University
     start: '2022–2025'
+    note: 'Supervisors [Prof. Zhipeng Gui](https://jszy.whu.edu.cn/ZhipengGui) and [Prof. Huayi Wu](https://scholars.whu.edu.cn/en/persons/huayi-wu/)'
   - degree: B.Eng. in Geodesy and Geomatics Engineering
     institution: Wuhan University
     start: '2018–2022'
-    summary: Graduated in the top 5% of the cohort by GPA.
-
-experience:
-  - role: Doctoral Researcher
-    org: Chair of Cartography and Visual Analytics, TUM
-    start: 2025-09-01
-    summary: |
-      Research on GeoXAI and LLM agents. Supervision of Master's theses
-      and contribution to seminar topic design.
+    note: 'Top 5% of the cohort by GPA'
 
 skills:
   - name: AI and machine learning

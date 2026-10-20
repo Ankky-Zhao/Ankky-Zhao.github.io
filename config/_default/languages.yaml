@@ -11,18 +11,18 @@ en:
         weight: 10
       - name: Research
         url: /#research
-        weight: 20
+        weight: 15
       - name: Projects
         url: /#projects
         weight: 25
       - name: Publications
-        url: publications/
-        weight: 30
+        url: /#publications
+        weight: 20
       - name: News
         url: /#news
         weight: 40
-      - name: Experience
-        url: experience/
+      - name: CV
+        url: cv/
         weight: 50
       - name: Blog
         url: blog/
@@ -51,13 +51,13 @@ zh:
         url: /#projects
         weight: 25
       - name: 论文
-        url: publications/
-        weight: 30
+        url: /#publications
+        weight: 20
       - name: 动态
         url: /#news
         weight: 40
-      - name: 经历
-        url: experience/
+      - name: 履历
+        url: cv/
         weight: 50
       - name: 博客
         url: blog/
