@@ -29,3 +29,5 @@ Builds an operator-function knowledge base from Earth Engine scripts, linking op
 
 **Citation**  
 Hou S., **Zhao A.**, Liang J., Shen Z., Wu H. (2025). Geo-FuB: constructing an operator-function knowledge base for geospatial code generation with large language models. Knowledge-Based Systems, 319, 113624. [doi:10.1016/j.knosys.2025.113624](https://doi.org/10.1016/j.knosys.2025.113624)
+
+*Cover figure: Workflow of the Geo-FuB framework construction. From Hou et al. (2025), Knowledge-Based Systems.*

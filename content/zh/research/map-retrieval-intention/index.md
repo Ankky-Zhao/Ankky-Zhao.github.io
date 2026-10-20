@@ -23,3 +23,5 @@ weight: 0
 
 **引用**  
 Gui Z., Liu X., **Zhao A.**, et al. (2024). Map retrieval intention recognition based on relevance feedback and geographic semantic guidance. Information Processing & Management, 61(4), 103767. [doi:10.1016/j.ipm.2024.103767](https://doi.org/10.1016/j.ipm.2024.103767)
+
+*封面图：引入意图识别的地图检索流程。引自 Gui et al. (2024), Information Processing & Management。*

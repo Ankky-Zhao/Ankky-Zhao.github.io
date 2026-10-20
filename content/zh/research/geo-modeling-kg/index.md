@@ -23,3 +23,5 @@ weight: 0
 
 **引用**  
 Liang J., Hou S., **Zhao A.**, Xu Q., Xiang L., Li R., Wu H. (2025). Design and application of a semantic-driven geospatial modeling knowledge graph based on large language models. Geo-spatial Information Science. [doi:10.1080/10095020.2025.2483884](https://doi.org/10.1080/10095020.2025.2483884)
+
+*封面图：协同增强框架总览。引自 Liang et al. (2025), Geo-spatial Information Science。*

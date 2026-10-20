@@ -24,3 +24,5 @@ Recognises users' map retrieval intentions from relevance feedback, with geograp
 
 **Citation**  
 Gui Z., Liu X., **Zhao A.**, et al. (2024). Map retrieval intention recognition based on relevance feedback and geographic semantic guidance. Information Processing & Management, 61(4), 103767. [doi:10.1016/j.ipm.2024.103767](https://doi.org/10.1016/j.ipm.2024.103767)
+
+*Cover figure: Map retrieval workflow enhanced by intention recognition. From Gui et al. (2024), Information Processing & Management.*

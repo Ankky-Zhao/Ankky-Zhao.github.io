@@ -25,3 +25,5 @@ Mines operator call relationships from Earth Engine scripts with syntax-tree par
 
 **Citation**  
 Hou S., Liang J., **Zhao A.**, Wu H. (2025). GEE-OPs: an operator knowledge base for geospatial code generation on Google Earth Engine powered by large language models. Geo-spatial Information Science. [doi:10.1080/10095020.2025.2505556](https://doi.org/10.1080/10095020.2025.2505556)
+
+*Cover figure: Framework for constructing the GEE-OPs knowledge base. From Hou et al. (2025), Geo-spatial Information Science.*

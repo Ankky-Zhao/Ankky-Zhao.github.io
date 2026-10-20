@@ -22,3 +22,5 @@ weight: 0
 
 **引用**  
 Wu H., Jiao H., Hou S., Liang J., Shen Z., **Zhao A.**, et al. (2025). GeoColab: an LLM-based multi-agent collaborative framework for geospatial code generation. International Journal of Digital Earth, 18(2). [doi:10.1080/17538947.2025.2569405](https://doi.org/10.1080/17538947.2025.2569405)
+
+*封面图：GeoColab 多智能体系统概念图。引自 Wu et al. (2025), International Journal of Digital Earth。*

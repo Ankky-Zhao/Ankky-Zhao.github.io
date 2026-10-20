@@ -28,3 +28,5 @@ Fine-tunes an open LLM on purpose-built geospatial code corpora for pretraining,
 
 **Citation**  
 Hou S., Shen Z., **Zhao A.**, Liang J., Gui Z., Guan X., Li R., Wu H. (2025). GeoCode-GPT: a large language model for geospatial code generation. International Journal of Applied Earth Observation and Geoinformation, 104456. [doi:10.1016/j.jag.2025.104456](https://doi.org/10.1016/j.jag.2025.104456)
+
+*Cover figure: Technical workflow of GeoCode-GPT. From Hou et al. (2025), International Journal of Applied Earth Observation and Geoinformation.*

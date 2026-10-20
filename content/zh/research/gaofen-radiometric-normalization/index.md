@@ -22,3 +22,5 @@ weight: 0
 
 **引用**  
 Yan L., Yang J., Zhang Y., **Zhao A.**, Li X. (2021). Radiometric normalization for cross-sensor optical Gaofen images with change detection and chi-square test. Remote Sensing, 13(16), 3125. [doi:10.3390/rs13163125](https://doi.org/10.3390/rs13163125)
+
+*封面图：所提相对辐射归一化方法的流程。引自 Yan et al. (2021), Remote Sensing。*

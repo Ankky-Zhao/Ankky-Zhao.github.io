@@ -24,3 +24,5 @@ Normalises radiometry across Gaofen sensors by detecting unchanged pixels with c
 
 **Citation**  
 Yan L., Yang J., Zhang Y., **Zhao A.**, Li X. (2021). Radiometric normalization for cross-sensor optical Gaofen images with change detection and chi-square test. Remote Sensing, 13(16), 3125. [doi:10.3390/rs13163125](https://doi.org/10.3390/rs13163125)
+
+*Cover figure: Workflow of the proposed relative radiometric normalisation method. From Yan et al. (2021), Remote Sensing.*

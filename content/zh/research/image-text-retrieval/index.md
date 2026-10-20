@@ -22,3 +22,5 @@ weight: 0
 
 **引用**  
 Wei W., Gui Z., Wu C., **Zhao A.**, Peng D., Wu H. (2025). Dynamic visual semantic sub-embeddings and fast re-ranking for image-text retrieval. IEEE Transactions on Multimedia, 27, 3781–3796. [doi:10.1109/TMM.2025.3535373](https://doi.org/10.1109/TMM.2025.3535373)
+
+*封面图：模型总览。引自 Wei et al. (2025), IEEE Transactions on Multimedia。*

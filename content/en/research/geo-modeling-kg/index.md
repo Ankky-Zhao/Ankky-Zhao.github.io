@@ -25,3 +25,5 @@ Designs a geospatial modeling knowledge graph whose entities and relations are e
 
 **Citation**  
 Liang J., Hou S., **Zhao A.**, Xu Q., Xiang L., Li R., Wu H. (2025). Design and application of a semantic-driven geospatial modeling knowledge graph based on large language models. Geo-spatial Information Science. [doi:10.1080/10095020.2025.2483884](https://doi.org/10.1080/10095020.2025.2483884)
+
+*Cover figure: Overview of the co-augmentation framework. From Liang et al. (2025), Geo-spatial Information Science.*

@@ -23,3 +23,5 @@ An LLM-based agent that plans, retrieves geospatial knowledge, and generates and
 
 **Citation**  
 Hou S., Jiao H., Liang J., Shen Z., **Zhao A.**, Wu H. (2025). GeoCogent: an LLM-based agent for geospatial code generation. International Journal of Geographical Information Science. [doi:10.1080/13658816.2025.2549460](https://doi.org/10.1080/13658816.2025.2549460)
+
+*Cover figure: Overall architecture of GeoCogent. From Hou et al. (2025), International Journal of Geographical Information Science.*

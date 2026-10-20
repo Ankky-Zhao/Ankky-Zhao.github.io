@@ -27,3 +27,5 @@ weight: 0
 
 **引用**  
 Hou S., **Zhao A.**, Liang J., Shen Z., Wu H. (2025). Geo-FuB: constructing an operator-function knowledge base for geospatial code generation with large language models. Knowledge-Based Systems, 319, 113624. [doi:10.1016/j.knosys.2025.113624](https://doi.org/10.1016/j.knosys.2025.113624)
+
+*封面图：Geo-FuB 框架构建流程。引自 Hou et al. (2025), Knowledge-Based Systems。*

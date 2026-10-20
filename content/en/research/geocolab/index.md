@@ -23,3 +23,5 @@ Coordinates role-specialised LLM agents in a collaborative workflow that decompo
 
 **Citation**  
 Wu H., Jiao H., Hou S., Liang J., Shen Z., **Zhao A.**, et al. (2025). GeoColab: an LLM-based multi-agent collaborative framework for geospatial code generation. International Journal of Digital Earth, 18(2). [doi:10.1080/17538947.2025.2569405](https://doi.org/10.1080/17538947.2025.2569405)
+
+*Cover figure: Concept of the GeoColab multi-agent system. From Wu et al. (2025), International Journal of Digital Earth.*
