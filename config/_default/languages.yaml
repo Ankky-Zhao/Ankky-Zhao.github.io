@@ -9,9 +9,6 @@ en:
       - name: Home
         url: /
         weight: 10
-      - name: Research
-        url: /#research
-        weight: 15
       - name: Projects
         url: /#projects
         weight: 25
@@ -21,8 +18,8 @@ en:
       - name: News
         url: /#news
         weight: 40
-      - name: CV
-        url: cv/
+      - name: About
+        url: about/
         weight: 50
       - name: Blog
         url: blog/
@@ -44,9 +41,6 @@ zh:
       - name: 首页
         url: /
         weight: 10
-      - name: 研究
-        url: /#research
-        weight: 20
       - name: 项目
         url: /#projects
         weight: 25
@@ -56,8 +50,8 @@ zh:
       - name: 动态
         url: /#news
         weight: 40
-      - name: 履历
-        url: cv/
+      - name: 关于我
+        url: about/
         weight: 50
       - name: 博客
         url: blog/

@@ -12,10 +12,12 @@ sections:
       button:
         text: Download CV
         url: https://ankky-zhao.github.io/uploads/cv.pdf
+      interests_text: |-
+        I am interested in how AI systems that reason about place can be built, checked and trusted. Much of my current work concerns LLM and multimodal agents that plan, call tools and verify their own results when analysing geospatial models, and how such agents can explain those models to people with different backgrounds. A related question is whether an explanation reflects what a model actually relies on, which I study with controlled experiments where the ground truth is known. I am also increasingly interested in location privacy, as multimodal models become able to infer where people are from the images and text they share.
       headings:
         about: 'About Me'
         education: ''
-        interests: ''
+        interests: 'Research Interests'
     design:
       background:
         gradient_mesh:
@@ -25,16 +27,6 @@ sections:
       avatar:
         size: medium
         shape: circle
-
-  - block: markdown
-    id: research
-    content:
-      title: 'Research'
-      subtitle: ''
-      text: |-
-        My work sits between machine learning and geographic information science. One line of research builds LLM-based multi-agent systems that combine tool use, planning and verification, and applies them to analysing and explaining GeoAI models for different audiences. A second line examines the explanation methods themselves. Controlled experiments with known ground truth make it possible to measure how well feature attributions and LLM-generated explanations recover what a model relies on, and to identify when spatial structure in the data leads them astray. Earlier work extracted structured knowledge from large corpora of geospatial code by coordinating large and small language models.
-    design:
-      columns: '1'
 
   - block: portfolio
     id: publications
@@ -78,25 +70,12 @@ sections:
       columns: 2
       fallback_icon: code-bracket
 
-  - block: cta-card
-    id: collaborate
-    content:
-      title: 'Open to Collaboration'
-      text: |-
-        I am looking for collaborators who share an interest in **LLM and multimodal agents for geospatial analysis**, **evaluating and explaining GeoAI models**, **location privacy in the age of AI**, or **knowledge extraction from geospatial code and text**. PhD students, postdocs and industry researchers are all welcome, whether for a joint paper, a dataset or benchmark, or an open-source tool. If any of this overlaps with your work, a short email with a line about what you are working on is the best way to start.
-      button:
-        text: 'Get in touch'
-        url: 'mailto:anqi.zhao@tum.de?subject=Collaboration'
-    design:
-      card:
-        css_class: 'bg-gradient-to-br from-primary-700 to-secondary-600 text-white shadow-xl'
-
   - block: markdown
     id: news
     content:
       title: 'News'
       text: |-
-        **Oct 2026** · Launched this website. I am open to collaboration on LLM agents and GeoAI, see [Open to Collaboration](#collaborate).
+        **Oct 2026** · Launched this website. I am open to collaboration on trustworthy AI and LLM agents, see [Open to Collaboration](#collaborate).
 
         **Oct 2026** · Released the [Web Scraping Roadmap](https://github.com/Ankky-Zhao/web-scraping-roadmap), a bilingual guide from first request to a finished scraping project.
 
@@ -130,4 +109,17 @@ sections:
       order: desc
     design:
       view: card
+
+  - block: markdown
+    id: collaborate
+    content:
+      title: ''
+      text: |-
+        <div class="collab-card">
+        <h2>Open to Collaboration</h2>
+        <p>I would like to work with people who share an interest in <strong>trustworthy and explainable AI</strong>, <strong>LLM and multimodal agents</strong> and newer agent topics such as evaluation, reliability and reasoning, or <strong>location privacy in the age of AI</strong>. Projects close to GeoAI are welcome, and so are questions from the broader AI side where spatial data is one testbed among others. PhD students, postdocs and industry researchers are all welcome, for a joint paper, a dataset or benchmark, or an open-source tool. If this overlaps with your work, a short email about what you are working on is the best way to start.</p>
+        <div class="collab-btn"><a href="mailto:anqi.zhao@tum.de?subject=Collaboration">Get in touch</a></div>
+        </div>
+    design:
+      columns: '1'
 ---

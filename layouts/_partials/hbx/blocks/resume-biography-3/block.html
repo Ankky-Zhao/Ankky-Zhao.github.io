@@ -511,6 +511,10 @@
             {{ end }}
             <h3 class="text-xl font-bold text-gray-900 dark:text-white tracking-tight">{{ $interests_heading | markdownify }}</h3>
           </div>
+          {{/* local: short research statement above the interest keywords */}}
+          {{ with index $content "interests_text" }}
+          <div class="bio-text interests-text prose prose-lg dark:prose-invert max-w-none mb-5">{{ printf "%v" . | $page.RenderString }}</div>
+          {{ end }}
           <div class="flex flex-wrap gap-3">
             {{ range $interests }}
             {{ $interest := strings.TrimSpace (printf "%v" .) }}

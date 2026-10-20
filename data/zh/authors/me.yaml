@@ -4,7 +4,7 @@ name:
   alternate: Anqi Zhao
 role: 地理空间人工智能方向博士生
 bio: >-
-  [慕尼黑工业大学地图学与可视分析教席](https://www.asg.ed.tum.de/lfk/home/)博士生，导师为孟立秋教授。研究位于机器学习与地理空间数据的交叉处，重点关注大语言模型智能体与可解释人工智能。一方面构建多智能体大语言模型系统，用于分析 GeoAI 模型并解释其行为；另一方面研究评测方法，检验这些解释能否真实反映模型学到的规律。在武汉大学期间，从事大小语言模型协同、从地学代码中抽取结构化知识的研究。
+  [慕尼黑工业大学地图学与可视分析教席](https://www.asg.ed.tum.de/lfk/home/)博士生，导师为孟立秋教授，副导师为冯煜教授。我从地图走向人工智能，在武汉大学学习大地测量、地图学与地理信息系统期间，第一次用语言模型理解地学代码，如今的工作主要落在 GeoAI 中偏人工智能的一侧。科研之外，我指导硕士生，并维护大语言模型智能体与网络爬虫两份开源学习资源。
 
 affiliations:
   - name: 慕尼黑工业大学 地图学与可视分析教席
@@ -22,7 +22,7 @@ education:
   - degree: 地图学博士
     institution: 慕尼黑工业大学
     start: '2025 至今'
-    note: '导师 [孟立秋教授](https://www.asg.ed.tum.de/lfk/home/) · 副导师 Yu Feng 教授'
+    note: '导师 [孟立秋教授](https://www.asg.ed.tum.de/lfk/home/) · 副导师 [冯煜教授](https://www.i3mainz.hs-mainz.de/en/team/yufeng/)'
   - degree: 地图学与地理信息系统 硕士
     institution: 武汉大学
     start: '2022–2025'

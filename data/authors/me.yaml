@@ -10,15 +10,13 @@ name:
   pronouns: ''
 role: PhD Student in Geospatial AI
 bio: |
-  I am a PhD student at the [Chair of Cartography and Visual Analytics](https://www.asg.ed.tum.de/lfk/home/),
-  Technical University of Munich, supervised by Prof. Liqiu Meng.
-  I work where machine learning meets geographic data, with a focus on
-  LLM agents and explainable AI. I build multi-agent LLM systems that
-  analyse GeoAI models and explain their behaviour, and I develop
-  evaluation methods that test whether such explanations reflect what a
-  model has actually learned. At Wuhan University I worked on
-  coordinating large and small language models to extract structured
-  knowledge from geospatial code.
+  I am a PhD student at the [Chair of Cartography and Visual Analytics](https://www.asg.ed.tum.de/lfk/home/)
+  at the Technical University of Munich, supervised by Prof. Liqiu Meng and
+  mentored by Prof. Yu Feng. I came to AI from maps. I studied geodesy,
+  cartography and GIS at Wuhan University, where I first used language
+  models to make sense of geospatial code, and I now spend most of my time
+  on the AI side of GeoAI. Besides research, I supervise Master's students
+  and maintain open learning resources on LLM agents and web scraping.
 
 affiliations:
   - name: Chair of Cartography and Visual Analytics, TUM
@@ -50,7 +48,7 @@ education:
   - degree: PhD in Cartography
     institution: Technical University of Munich
     start: '2025–present'
-    note: 'Supervisor [Prof. Liqiu Meng](https://www.asg.ed.tum.de/lfk/home/) · Mentor Prof. Yu Feng'
+    note: 'Supervisor [Prof. Liqiu Meng](https://www.asg.ed.tum.de/lfk/home/) · Mentor [Prof. Yu Feng](https://www.i3mainz.hs-mainz.de/en/team/yufeng/)'
   - degree: M.Sc. in Cartography and GIS
     institution: Wuhan University
     start: '2022–2025'

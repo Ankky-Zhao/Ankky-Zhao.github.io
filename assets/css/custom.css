@@ -1,0 +1,21 @@
+/* Justify running text (bio, research interests, Markdown sections, cards) */
+.bio-text, .bio-text p, .interests-text, .interests-text p, .prose p, .hbx-cta-text p, article .text-sm.line-clamp-2 {
+  text-align: justify;
+  text-justify: inter-character;
+  hyphens: auto;
+}
+
+/* Collaboration card */
+.collab-card { width: min(56rem, calc(100vw - 2rem)); position: relative; left: 50%; transform: translateX(-50%); margin: 0; padding: 2.5rem 2.75rem; border-radius: 1.25rem;
+  background: linear-gradient(135deg, #EEF3F9 0%, #E7F3F1 100%); border: 1px solid #D5DEE9;
+  box-shadow: 0 10px 30px rgba(31,58,95,.08); }
+.collab-card h2 { text-align: center; margin: 0 0 1.25rem; color: #1F3A5F; }
+.collab-card p { text-align: justify; text-justify: inter-character; color: #334155; margin: 0; }
+.collab-card strong { color: #1F3A5F; }
+.collab-btn { text-align: center; margin-top: 1.75rem; }
+.collab-btn a { display: inline-block; padding: .65rem 1.6rem; border-radius: 9999px; background: #1F3A5F; color: #fff !important;
+  text-decoration: none !important; font-weight: 600; font-size: .95rem; }
+.collab-btn a:hover { background: #2A9D8F; }
+.dark .collab-card { background: linear-gradient(135deg, #1B2533 0%, #18302D 100%); border-color: #2B3A4D; }
+.dark .collab-card h2, .dark .collab-card strong { color: #E2E8F0; }
+.dark .collab-card p { color: #CBD5E1; }

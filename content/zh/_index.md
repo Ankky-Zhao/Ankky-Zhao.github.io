@@ -12,6 +12,8 @@ sections:
       button:
         text: 下载简历
         url: https://ankky-zhao.github.io/uploads/cv.pdf
+      interests_text: |-
+        我关注能够对地理空间进行推理的人工智能系统，如何被构建、被检验并值得信任。当前的工作主要围绕大语言模型与多模态智能体展开，研究它们在分析地理空间模型时如何规划任务、调用工具并核验自身结果，以及如何向不同背景的人解释这些模型。与之相关的另一个问题是，解释能否真实反映模型所依赖的因素，我借助真值已知的受控实验来研究这一点。随着多模态模型能够从人们分享的图片和文字中推断其所在位置，位置隐私也成为我日益关注的方向。
       headings:
         about: '个人简介'
         education: '教育背景'
@@ -25,16 +27,6 @@ sections:
       avatar:
         size: medium
         shape: circle
-
-  - block: markdown
-    id: research
-    content:
-      title: '研究方向'
-      subtitle: ''
-      text: |-
-        我的研究位于机器学习与地理信息科学之间。一条主线是构建结合工具调用、任务规划与结果核验的多智能体大语言模型系统，用于分析 GeoAI 模型，并面向不同受众解释其行为。另一条主线关注解释方法本身，借助真值已知的受控实验，度量特征归因与大语言模型生成的解释在多大程度上还原了模型真正依赖的因素，并识别数据中的空间结构在哪些情况下会使解释产生偏差。此前的工作则通过协同大小语言模型，从大规模地学代码中抽取结构化知识。
-    design:
-      columns: '1'
 
   - block: portfolio
     id: publications
@@ -78,25 +70,12 @@ sections:
       columns: 2
       fallback_icon: code-bracket
 
-  - block: cta-card
-    id: collaborate
-    content:
-      title: '欢迎合作'
-      text: |-
-        希望结识在**面向地理空间分析的大语言模型与多模态智能体**、**GeoAI 模型的解释与评测**、**人工智能时代的位置隐私**、**地学代码与文本的知识抽取**等方向有共同兴趣的研究者。无论是博士生、博士后还是业界研究人员，合作形式可以是联合论文、数据集或基准，也可以是开源工具。如果你的研究与这些方向有交集，欢迎发邮件简单介绍你正在做的工作。
-      button:
-        text: '联系我'
-        url: 'mailto:anqi.zhao@tum.de?subject=Collaboration'
-    design:
-      card:
-        css_class: 'bg-gradient-to-br from-primary-700 to-secondary-600 text-white shadow-xl'
-
   - block: markdown
     id: news
     content:
       title: '动态'
       text: |-
-        **2026 年 10 月** · 个人主页上线，欢迎在大语言模型智能体与 GeoAI 方向开展合作，详见[欢迎合作](#collaborate)。
+        **2026 年 10 月** · 个人主页上线，欢迎在可信人工智能与大语言模型智能体方向开展合作，详见[欢迎合作](#collaborate)。
 
         **2026 年 10 月** · 发布 [爬虫学习路线](https://github.com/Ankky-Zhao/web-scraping-roadmap)，从第一个请求到完整爬虫项目的中英双语教程。
 
@@ -130,4 +109,17 @@ sections:
       order: desc
     design:
       view: card
+
+  - block: markdown
+    id: collaborate
+    content:
+      title: ''
+      text: |-
+        <div class="collab-card">
+        <h2>欢迎合作</h2>
+        <p>希望与在<strong>可信与可解释人工智能</strong>、<strong>大语言模型与多模态智能体</strong>（包括智能体的评测、可靠性与推理等前沿问题）以及<strong>人工智能时代的位置隐私</strong>等方向有共同兴趣的研究者合作。贴近 GeoAI 的课题当然欢迎，偏人工智能、把空间数据作为测试场景之一的问题同样欢迎。无论是博士生、博士后还是业界研究人员，合作形式可以是联合论文、数据集或基准，也可以是开源工具。如果你的研究与这些方向有交集，欢迎发邮件简单介绍你正在做的工作。</p>
+        <div class="collab-btn"><a href="mailto:anqi.zhao@tum.de?subject=Collaboration">联系我</a></div>
+        </div>
+    design:
+      columns: '1'
 ---

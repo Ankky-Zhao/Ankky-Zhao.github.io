@@ -10,13 +10,13 @@ Built with [Hugo](https://gohugo.io/) and the [HugoBlox Academic CV](https://git
 
 | What | File |
 |------|------|
-| Name, bio, education (with supervisors), skills, honours, links | `data/authors/me.yaml` (English), `data/zh/authors/me.yaml` (Chinese overrides) |
+| Name, bio, research-interest statement (`interests_text`), education (with supervisors), skills, honours, links | `data/authors/me.yaml` (English), `data/zh/authors/me.yaml` (Chinese overrides) |
 | Profile photo | `assets/media/authors/me.png` (replace with a square photo, same file name) |
-| Homepage sections (research, news, teaching, collaboration) | `content/en/_index.md`, `content/zh/_index.md` |
+| Homepage sections (publications, projects, news, teaching, collaboration) | `content/en/_index.md`, `content/zh/_index.md` |
 | Publications (one card per paper, with Paper/Code buttons) | `content/<lang>/research/<name>/index.md` and `featured.png` |
 | Projects (GitHub projects, text + cover image) | `content/<lang>/projects/<name>/index.md` and `featured.png` |
 | Blog posts | `content/<lang>/blog/<name>/index.md` |
-| CV page (skills, honours, languages) | `content/<lang>/cv.md`, CV PDF at `static/uploads/cv.pdf` |
+| About page (skills, honours, languages, hobbies) | `content/<lang>/about.md`; CV PDF at `static/uploads/cv.pdf` |
 | Menu, languages | `config/_default/languages.yaml` |
 | Colours, header, footer | `config/_default/params.yaml` |
 
@@ -52,6 +52,10 @@ hugo server
 ## One-time GitHub setup
 
 In the repository go to **Settings → Pages** and set **Source** to **GitHub Actions**. The site is then rebuilt automatically after each push.
+
+## Styling
+
+Site-wide CSS tweaks (justified paragraphs) live in `assets/css/custom.css`.
 
 ## Local template fixes
 
