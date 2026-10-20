@@ -77,11 +77,26 @@ sections:
       columns: 2
       fallback_icon: code-bracket
 
+  - block: cta-card
+    id: collaborate
+    content:
+      title: 'Open to Collaboration'
+      text: |-
+        I am looking for collaborators who share an interest in **LLM agents for geospatial analysis**, **evaluating and explaining GeoAI models**, or **knowledge extraction from geospatial code and text**. PhD students, postdocs and industry researchers are all welcome, whether for a joint paper, a dataset or benchmark, or an open-source tool. If any of this overlaps with your work, a short email with a line about what you are working on is the best way to start.
+      button:
+        text: 'Get in touch'
+        url: 'mailto:anqi.zhao@tum.de?subject=Collaboration'
+    design:
+      card:
+        css_class: 'bg-gradient-to-br from-primary-700 to-secondary-600 text-white shadow-xl'
+
   - block: markdown
     id: news
     content:
       title: 'News'
       text: |-
+        **Oct 2026** · Launched this website. I am open to collaboration on LLM agents and GeoAI, see [Open to Collaboration](#collaborate).
+
         **Oct 2026** · Released the [Web Scraping Roadmap](https://github.com/Ankky-Zhao/web-scraping-roadmap), a bilingual guide from first request to a finished scraping project.
 
         **Sep 2026** · Released the [LLM Agent Roadmap](https://github.com/Ankky-Zhao/llm-agent-roadmap), an open learning map of LLM agents with curated resources and a key-papers timeline.

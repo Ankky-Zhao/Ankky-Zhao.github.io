@@ -77,11 +77,26 @@ sections:
       columns: 2
       fallback_icon: code-bracket
 
+  - block: cta-card
+    id: collaborate
+    content:
+      title: '欢迎合作'
+      text: |-
+        希望结识在**面向地理空间分析的大语言模型智能体**、**GeoAI 模型的解释与评测**、**地学代码与文本的知识抽取**等方向有共同兴趣的研究者。无论是博士生、博士后还是业界研究人员，合作形式可以是联合论文、数据集或基准，也可以是开源工具。如果你的研究与这些方向有交集，欢迎发邮件简单介绍你正在做的工作。
+      button:
+        text: '联系我'
+        url: 'mailto:anqi.zhao@tum.de?subject=Collaboration'
+    design:
+      card:
+        css_class: 'bg-gradient-to-br from-primary-700 to-secondary-600 text-white shadow-xl'
+
   - block: markdown
     id: news
     content:
       title: '动态'
       text: |-
+        **2026 年 10 月** · 个人主页上线，欢迎在大语言模型智能体与 GeoAI 方向开展合作，详见[欢迎合作](#collaborate)。
+
         **2026 年 10 月** · 发布 [爬虫学习路线](https://github.com/Ankky-Zhao/web-scraping-roadmap)，从第一个请求到完整爬虫项目的中英双语教程。
 
         **2026 年 9 月** · 发布 [LLM 智能体学习地图](https://github.com/Ankky-Zhao/llm-agent-roadmap)，涵盖分阶段学习资源与关键论文时间线。

@@ -27,6 +27,9 @@ en:
       - name: Blog
         url: blog/
         weight: 60
+      - name: Collaborate
+        url: /#collaborate
+        weight: 70
 
 zh:
   label: 中文
@@ -59,3 +62,6 @@ zh:
       - name: 博客
         url: blog/
         weight: 60
+      - name: 合作
+        url: /#collaborate
+        weight: 70

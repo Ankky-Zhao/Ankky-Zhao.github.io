@@ -8,8 +8,6 @@ name:
   alternate: 赵安琪
   pronunciation: ''
   pronouns: ''
-status:
-  icon: "🗺️"
 role: PhD Student in Geospatial AI
 bio: |
   I am a PhD student at the Technical University of Munich, Chair of
@@ -42,9 +40,9 @@ links:
 
 interests:
   - LLM agents and multi-agent systems
-  - Explainable AI and faithfulness evaluation
+  - Trustworthy and explainable AI
   - GeoAI
-  - Knowledge extraction
+  - Knowledge extraction and knowledge graphs
 
 education:
   - degree: PhD in Cartography

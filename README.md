@@ -22,6 +22,24 @@ Built with [Hugo](https://gohugo.io/) and the [HugoBlox Academic CV](https://git
 
 To add a project, copy one of the folders under `content/en/projects/` and `content/zh/projects/`, edit the text, and replace `featured.png` (3:2 images look best on the cards). The `weight` field controls the order on the homepage, higher first.
 
+## Writing a blog post
+
+Each post is a folder with an `index.md` (and optionally a `featured.png` cover). English posts live in `content/en/blog/`, Chinese posts in `content/zh/blog/`; use the same folder name in both so the language switch links them. A post that exists in only one language is fine too.
+
+On GitHub (no software needed): open `content/en/blog/` in the repository, choose **Add file → Create new file**, type `my-post-name/index.md` as the name, paste the template below, write the post in Markdown, and commit. Images can be added with **Add file → Upload files** into the same folder and referenced as `![caption](image.png)`. The site rebuilds automatically in a few minutes.
+
+Locally: `hugo new content en/blog/my-post-name/index.md` creates the file from `archetypes/blog.md`.
+
+```yaml
+---
+title: 'Post title'
+date: 2026-10-20
+summary: 'One sentence shown on the blog card.'
+tags:
+  - LLM agents
+---
+```
+
 ## Local preview
 
 Requires Hugo Extended (version in `hugoblox.yaml`), Go and Node.js with pnpm.
