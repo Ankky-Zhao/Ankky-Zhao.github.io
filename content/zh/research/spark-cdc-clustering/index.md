@@ -23,3 +23,5 @@ weight: 0
 
 **引用**  
 Gui Z., Huang Z., Chen H., Peng D., Liu Y., Fang G., Lan Q., **Zhao A.**, Wu H. (2025). A performance-enhanced distributed computing framework for clustering by local direction centrality upon Apache Spark. Big Earth Data, 9(4), 797–827. [doi:10.1080/20964471.2025.2529639](https://doi.org/10.1080/20964471.2025.2529639)
+
+*封面图：分布式 D-CDC 算法的增强框架。引自 Gui et al. (2025), Big Earth Data。*

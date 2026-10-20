@@ -24,3 +24,5 @@ Parallelises the clustering-by-local-direction-centrality algorithm on Apache Sp
 
 **Citation**  
 Gui Z., Huang Z., Chen H., Peng D., Liu Y., Fang G., Lan Q., **Zhao A.**, Wu H. (2025). A performance-enhanced distributed computing framework for clustering by local direction centrality upon Apache Spark. Big Earth Data, 9(4), 797–827. [doi:10.1080/20964471.2025.2529639](https://doi.org/10.1080/20964471.2025.2529639)
+
+*Cover figure: Enhanced framework of the distributed D-CDC algorithm. From Gui et al. (2025), Big Earth Data.*
