@@ -10,13 +10,14 @@ Built with [Hugo](https://gohugo.io/) and the [HugoBlox Academic CV](https://git
 
 | What | File |
 |------|------|
-| Name, bio, research-interest statement (`interests_text`), education (with supervisors), skills, honours, links | `data/authors/me.yaml` (English), `data/zh/authors/me.yaml` (Chinese overrides) |
+| Name, bio, education (with supervisors), skills, honours, links | `data/authors/me.yaml` (English), `data/zh/authors/me.yaml` (Chinese overrides) |
 | Profile photo | `assets/media/authors/me.png` (replace with a square photo, same file name) |
-| Homepage sections (publications, projects, news, teaching, collaboration) | `content/en/_index.md`, `content/zh/_index.md` |
-| Publications (one card per paper, with Paper/Code buttons) | `content/<lang>/research/<name>/index.md` and `featured.png` |
+| Homepage (all sections, scrolling; research-interest statement is `interests_text` here) | `content/en/_index.md`, `content/zh/_index.md` |
+| Single-section pages linked from the menu | `content/<lang>/publications/_index.md`, `projects/_index.md`, `news.md`, `profile.md`, `collaborate.md` (news and collaboration text appear on both the homepage and their own page, so edit both) |
+| Publications (one card per paper, with Paper/Code buttons) | `content/<lang>/publications/<name>/index.md` and `featured.png` |
 | Projects (GitHub projects, text + cover image) | `content/<lang>/projects/<name>/index.md` and `featured.png` |
 | Blog posts | `content/<lang>/blog/<name>/index.md` |
-| About page (skills, honours, languages, hobbies) | `content/<lang>/about.md`; CV PDF at `static/uploads/cv.pdf` |
+| Profile (skills, honours, languages, hobbies; skills/honours/languages data in the author files) | `content/<lang>/profile.md` and the homepage; CV PDF at `static/uploads/cv.pdf` |
 | Menu, languages | `config/_default/languages.yaml` |
 | Colours, header, footer | `config/_default/params.yaml` |
 
